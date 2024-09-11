@@ -1,0 +1,38 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eb5b5b;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+/*Latihan 1*/
+.container-satu{
+    width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+.kolom-utama{
+    height: 90vh;
+    order: 2;
+}
+.sidebar-satu{
+    width: 900px;
+    padding: 10px;
+    order: 1;
+}
+.sidebar-dua{
+    order: 2;
+    flex: 0 0 200px;
+    width: 100px;
+}
+.gambar{
+    width: 100px;
+    float: left;
+    margin-right: 800px;
+}
