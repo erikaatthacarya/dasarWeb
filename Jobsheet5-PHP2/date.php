@@ -8,7 +8,7 @@
         echo "Today is " . date("Y/m/d") . "<br>";
         echo "Today is " . date ("Y.m.d") . "<br>";
         echo "Today is " . date ("Y-m-d") . "<br>";
-        echo "Today is " . date ("1") . "<br>";
+        echo "Today is " . date ("l") . "<br>"; //buat menampilkan nama,hari,bhs ing
         ?>
     </body>
 </html>
