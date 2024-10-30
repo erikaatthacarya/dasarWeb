@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('your-background-image.jpg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6); /* Menyesuaikan kecerahan background */
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna putih dengan transparansi */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    z-index: 1; /* Pastikan di atas background */
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border 0.3s;
+}
+
+input:focus {
+    border-color: #ff9800; /* Warna oranye saat fokus */
+    outline: none;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna biru gelap saat hover */
+}
+
+.footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ff9800; /* Warna oranye untuk link */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
